@@ -26,8 +26,8 @@
             <div class="card-body text-center">
                 <tr class="text-center">
                   <td><a class="px-3" href="Registration.php"> Create</td>
-                  <td><a class="px-4" href="view.php" > Edit</a></td>
-                  <td><a class="px-3" href="view.php" > Delete</td>
+                  <td><a class="px-4" href="edit.php" > Edit</a></td>
+                  <td><a class="px-3" href="deletar.php" > Delete</td>
                 </tr>
             </div>
           </div>
