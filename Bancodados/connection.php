@@ -3,7 +3,6 @@ $endereco = 'localhost';
 $banco = 'postgres';
 $usuario = 'postgres';
 $senha = '123456';
-
   /*$con =  pg_pconnect("host=$endereco port=5432 dbname=$banco user=$usuario password=$senha");
   if (!$con) {
     die(" connection error");

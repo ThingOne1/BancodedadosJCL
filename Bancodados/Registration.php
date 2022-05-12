@@ -24,13 +24,13 @@
             </div>
             <div class="card-body">
                 <form  action="insert.php" method="post">
-                  <input id="name" class="form-control mb-2" type="text" name="name" placeholder="Nome completo">
-                  <input id="telefone" class="form-control mb-2" type="tel" name="telefone" placeholder="Telefone">
+                  <input id="nome" class="form-control mb-2" type="text" name="nome" placeholder="Nome completo">
+                  <input id="telefone" class="form-control mb-2" type="tel" name="" placeholder="Telefone">
                   <input id="whatsapp" class="form-control mb-2" type="text" name="whatsapp" placeholder="Numero do Whatsapp">
-                  <input id="idade" class="form-control mb-2" type="text" name="idade" placeholder="Data de nascimento">
+                  <input id="data_nascimento" class="form-control mb-2" type="text" name="data_nascimento" placeholder="Data de nascimento">
                   <input id="curso" class="form-control mb-2" type="text" name="curso" placeholder="curso">
-                  <input id="data" class="form-control mb-2" type="data" name="data" placeholder="Data">
-                  <input id="ID" class="form-control mb-2" type="text" name="ID" placeholder="CPF">
+                  <input id="data_dia" class="form-control mb-2" type="data" name="data_dia" placeholder="Data">
+                  <input id="cpf" class="form-control mb-2" type="text" name="cpf" placeholder="CPF">
                   <button  type="submit" class="bg-dark btn btn-primary mt-2" name="enviarDados" value="CAD"> Enviar</button>
               </form>
             </div>

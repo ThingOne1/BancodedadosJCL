@@ -70,7 +70,7 @@ $UserID2 = $_POST['ID2'];
 
           $sql = "INSERT INTO usuario
           (nome, telefone, whastapp, curso, cpf, data_dia, data_nascimento)
-           VALUES (:name,:telefone,:whatsapp,:curso, :ID, :data, :idade)";
+           VALUES (:name,:telefone,:whatsapp,:curso, :cpf, :data_dia, :data_nascimento)";
 
           // Preparar a SQL (pdo)
           $stmt = $pdo->prepare($sql);
@@ -81,7 +81,7 @@ $UserID2 = $_POST['ID2'];
             ':telefone' => $_POST['telefone'],
             ':whatsapp' => $_POST['whatsapp'],
             ':curso' => ($_POST['curso']),
-            ':ID' => $_POST['cpf'],
+            ':cpf' => $_POST['cpf'],
             ':data' => $_POST['data_dia'],
             ':idade' => $_POST['data_nascimento']
           );

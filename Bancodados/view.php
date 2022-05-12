@@ -40,8 +40,8 @@
                  </tr>
 
                  <?php
-                    $stmt->execute($dados);
-                    while ($dados)
+                    
+                    while ($stmt->execute($dados))
                     {
                       $UserName = $dados['nome'];
                       $UserPhone = $dados['telefone'];
